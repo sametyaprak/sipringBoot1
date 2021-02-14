@@ -1,8 +1,11 @@
-package com.example.springBoot.student;
+package com.example.springBoot.controller;
 
+import com.example.springBoot.student.Student;
+import com.example.springBoot.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,9 +23,14 @@ public class StudentController {
         //this.studentService =  new StudentService();
     }
 
-    @GetMapping
-    public List<Student> getStudent (){
+    @GetMapping(path = "/1")
+    public Student getStudent (){
         return studentService.getStudent();
+    }
+
+    @GetMapping(path = "/2")
+    public String sayHello(){
+        return "hello";
     }
 
 

@@ -1,12 +1,19 @@
 package com.example.springBoot.student;
 
+import javax.persistence.*;
 import java.time.LocalDate;
-
+@Entity
+@Table(name = "students")
 public class Student {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+    @Column(name = "names")
     private String name;
+    @Column(name = "ages")
     private int age;
+    @Column(name = "birth_of_date")
     private LocalDate birtDate;
     private String email;
 

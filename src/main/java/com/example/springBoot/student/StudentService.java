@@ -3,22 +3,23 @@ package com.example.springBoot.student;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import javax.xml.crypto.Data;
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 
 @Service
 public class StudentService {
 
-    public List<Student> getStudent (){
-        return List.of(
-                new Student(
-                        1,
-                        "samet",
-                        26,
-                        LocalDate.of(1983,10,25),
-                        "samet@gmail.com"
-                )
-        );
+
+    public Student getStudent (){
+        return new Student("samet",
+                26,
+                LocalDate.of(2020,10,10),
+                "samet@gmail");
     }
+
+
+
 }
