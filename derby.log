@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Feb 15 00:26:35 CET 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0177-a2de-01de-000003c13568 
+on database directory memory:C:\Users\samet\IdeaProjects\sipringBootV1\d2ecdeed-44d6-44a9-8499-9ba6945594ae with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/samet/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=1.8.0_272-b10
+user.dir=C:\Users\samet\IdeaProjects\sipringBootV1
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
