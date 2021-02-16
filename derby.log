@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Mon Feb 15 00:26:35 CET 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0177-a2de-01de-000003c13568 
-on database directory memory:C:\Users\samet\IdeaProjects\sipringBootV1\d2ecdeed-44d6-44a9-8499-9ba6945594ae with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Tue Feb 16 22:27:09 CET 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0177-acbd-5bef-0000010a3970 
+on database directory memory:C:\Users\samet\IdeaProjects\sipringBoot1\0f5670fe-f3a9-4b6f-aea6-23c839abf915 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3764951d 
 Loaded from file:/C:/Users/samet/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
-java.vendor=Amazon.com Inc.
-java.runtime.version=1.8.0_272-b10
-user.dir=C:\Users\samet\IdeaProjects\sipringBootV1
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.1+9-18
+user.dir=C:\Users\samet\IdeaProjects\sipringBoot1
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
